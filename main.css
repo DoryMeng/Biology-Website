@@ -26,7 +26,7 @@ background-size: cover;
 .topnav{
     color: rgb(56, 43, 9);
     font-size: 27px;
-   
+   background-color: black;
     float: right;
 }
 
@@ -51,6 +51,6 @@ background-color: pink;
   background-color: #779755;
   box-shadow: 0 7px rgb(92, 167, 130);
   transform: translateY(5px);
-color: blue;
+
 }
  
