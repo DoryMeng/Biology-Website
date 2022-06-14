@@ -1,0 +1,56 @@
+body{
+    background-image:
+url("https://img.freepik.com/free-photo/3d-medical-background-with-close-up-dna-strands-low-poly-design_1048-11960.jpg?w=2000");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+#heading{
+    font-size: 60px;
+    margin: 225px;
+    
+    font-family: 'Permanent Marker', cursive;
+    float: left;
+    position: relative;
+}
+#heading2{
+    font-size: 60px;
+    padding: 15px;
+    position: absolute;
+    margin: 320px;
+    font-family: 'Permanent Marker', cursive;
+    float: left;
+    
+}
+.topnav{
+    color: rgb(56, 43, 9);
+    font-size: 27px;
+   
+    float: right;
+}
+
+.topnav a{
+    
+    padding: 20px 15px;
+}
+/* .topnav a:hover{
+background-color: pink;
+} */
+.button{
+    background-color: rgb(237, 223, 188);
+    color: rgb(42, 165, 118);
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    float: right;
+    border-radius: 20px;
+}
+.button:hover {background-color: #779755}
+
+.button:active {
+  background-color: #779755;
+  box-shadow: 0 7px rgb(92, 167, 130);
+  transform: translateY(5px);
+color: blue;
+}
+ 
