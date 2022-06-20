@@ -81,7 +81,21 @@ hr.line2{
  .list1{
     font-family: 'Fuzzy Bubbles', cursive;
  }
- #ok{
+ #crheading1{
     font-family: 'Faster One', cursive;
     font-size: 40px;
+ }
+
+ dl dd{
+   display: flex;
+    background: #e5dd9ee7;
+  color: darkred;
+  padding: 5px;
+  font-size: 15px;
+ }
+ dl {
+    background: rgba(144, 148, 99, 0.74);
+    font-weight: bold;
+    margin-left: 35px;
+    font-size: 20px;
  }
