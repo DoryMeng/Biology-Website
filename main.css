@@ -7,15 +7,6 @@ background-size: cover;
 
 
 
-#heading2{
-    font-size: 60px;
-    padding: 15px;
-    position: absolute;
-    margin: 320px;
-    font-family: 'Permanent Marker', cursive;
-    float: left;
-    
-}
 .topnav{
     color: rgb(56, 43, 9);
     font-size: 27px;
@@ -38,11 +29,11 @@ background-color: pink;
     float: right;
     border-radius: 20px;
 }
-.button:hover {background-color: #779755}
+.button:hover {background-color: #ccd7e8}
 
 .button:active {
-  background-color: #779755;
-  box-shadow: 0 7px rgb(92, 167, 130);
+  background-color: #90a8cd;
+  box-shadow: 0 7px rgb(72, 77, 98);
   transform: translateY(5px);
 
 }
@@ -51,7 +42,7 @@ background-color: pink;
 
 #one{
     font-size: 40px;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 100px;
     font-family: 'Permanent Marker', cursive;
     float: left;
@@ -61,7 +52,7 @@ background-color: pink;
 }
 #two{
     font-size: 40px;
-    margin-top: 325px;
+    margin-top: 300px;
   margin-left: 200px;
     font-family: 'Permanent Marker', cursive;
     float: left;
@@ -85,4 +76,12 @@ hr.line2{
  hr.line3{
     border: 6px solid black;
      border-radius: 5px;
+ }
+
+ .list1{
+    font-family: 'Fuzzy Bubbles', cursive;
+ }
+ #ok{
+    font-family: 'Faster One', cursive;
+    font-size: 40px;
  }
