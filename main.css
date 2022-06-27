@@ -87,15 +87,40 @@ hr.line2{
  }
 
  dl dd{
-   display: flex;
+  
     background: #e5dd9ee7;
   color: darkred;
   padding: 5px;
   font-size: 15px;
  }
  dl {
-    background: rgba(144, 148, 99, 0.74);
+   
     font-weight: bold;
     margin-left: 35px;
     font-size: 20px;
  }
+
+#glyimage{
+    height: 700px;
+    width: 1000px;
+    position: relative;
+    background: rgb(238, 223, 185);
+    border-radius: 100px;
+ }
+
+.divgly{
+    background-color: red;
+    border-radius: 20px;
+    font-size: 30px;
+    position: absolute;
+    height: 80px;
+    width:300px;
+    margin-top: 75px;
+    top: 47%;
+  left: 17%;
+  
+  transform:translateX(800px);
+  transition:5s;
+}
+
+
