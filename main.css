@@ -85,7 +85,10 @@ hr.line2{
     font-family: 'Faster One', cursive;
     font-size: 40px;
  }
-
+#CR{
+  
+background-color: rgba(117, 235, 241, 0.5);
+}
  dl dd{
   
     background: #e5dd9ee7;
@@ -94,7 +97,7 @@ hr.line2{
   font-size: 15px;
  }
  dl {
-   
+   color: rgb(182, 236, 121);
     font-weight: bold;
     margin-left: 35px;
     font-size: 20px;
@@ -109,20 +112,21 @@ hr.line2{
  }
 
 .divgly{
-    background-color: red;
+    background-color: rgb(225, 168, 168);
     border-radius: 20px;
     font-size: 20px;
     text-align: center;
     position: absolute;
-    width: 50%;
+   height: 600px;
+   width: 500px;
     top: 30%;
    
  
    
-    overflow:auto;
+    overflow:visible;
   
   
-    animation: 5s divgly;
+    animation: 5s divgly forwards;
   
   
  
@@ -138,7 +142,47 @@ hr.line2{
     }
   
     to {
-      margin-left: 70%;
+      margin-left:75%;
       width: 20%;
     }
   }
+
+
+ span:hover + div{
+ font-size: 20px;
+
+ display: block;
+ }
+ #SLP{
+  position: absolute;
+  top: 86%;
+  left: 44%;
+  background-color: yellow;
+ }
+ #SLP2{
+  position: absolute;
+  top: 86%;
+  left: 20%;
+  background-color: yellow;
+ }
+
+ .divatp{
+  background-color: yellow;
+  display: none;
+
+}
+
+#pyruvate_oxidation_image{
+  position: absolute;
+  margin-top: 200px;
+
+height: 300px;
+width: 500px;
+}
+
+#krebs_cycle_image{
+ margin-left: 600px;
+}
+#stage3{
+  color: white;
+}
