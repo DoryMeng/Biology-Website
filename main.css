@@ -162,7 +162,7 @@ background-color: rgba(117, 235, 241, 0.5);
  #SLP2{
   position: absolute;
   top: 86%;
-  left: 20%;
+  left: 12%;
   background-color: yellow;
  }
 
@@ -172,6 +172,9 @@ background-color: rgba(117, 235, 241, 0.5);
 
 }
 
+.stage2{
+  color: rgb(121, 223, 197);
+}
 #pyruvate_oxidation_image{
   position: absolute;
   margin-top: 200px;
@@ -183,6 +186,15 @@ width: 500px;
 #krebs_cycle_image{
  margin-left: 600px;
 }
+
+#pyruvatebutton1{
+  position: absolute;
+  top:184%;
+  left: 6%;
+  height: 30px;
+  width: 30px;
+}
+
 #stage3{
   color: white;
 }
