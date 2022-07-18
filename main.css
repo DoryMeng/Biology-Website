@@ -117,9 +117,9 @@ background-color: rgba(117, 235, 241, 0.5);
     font-size: 20px;
     text-align: center;
     position: absolute;
-   height: 600px;
-   width: 500px;
-    top: 30%;
+   height: 30em;
+   width: 50em;
+    top: 11em;
    
  
    
@@ -155,14 +155,14 @@ background-color: rgba(117, 235, 241, 0.5);
  }
  #SLP{
   position: absolute;
-  top: 86%;
-  left: 44%;
+  top: 38em;
+  left: 41.5em;
   background-color: yellow;
  }
  #SLP2{
   position: absolute;
-  top: 86%;
-  left: 12%;
+  top: 38em;
+  left: 11.5em;
   background-color: yellow;
  }
 
@@ -184,22 +184,22 @@ width: 500px;
 }
 
 #krebs_cycle_image{
- margin-left: 600px;
+ margin-left: 500px;
+ height:600px;
 }
 
 #pyruvatebutton1{
   position: absolute;
-  top:184%;
-  left: 6%;
-  height: 30px;
-  width: 30px;
+  top:99em;
+  left: 7em;
+  height: 2em;
+  width: 2em;
   background-color:rgb(159, 239, 239);
 }
 
 button:hover+div{
   display:block;
-  font-size:20px;
-  font-size: 30px;
+  font-size:2em;
  font-family: 'Chewy', cursive;
 }
 
@@ -211,10 +211,10 @@ button:hover+div{
 }
 #pyruvatebutton2{
   position: absolute;
-  top:194%;
-  left: 16%;
-  height: 30px;
-  width: 30px;
+  top:104em;
+  left: 18.5em;
+  height: 2em;
+  width: 2em;
   background-color:rgb(159, 239, 239);
 }
 
@@ -225,10 +225,10 @@ button:hover+div{
 }
 #pyruvatebutton3{
   position: absolute;
-  top:184%;
-  left: 30%;
-  height: 30px;
-  width: 30px;
+  top:99em;
+  left: 34em;
+  height: 2em;
+  width: 2em;
   background-color:rgb(159, 239, 239);
 }
 
@@ -240,10 +240,10 @@ button:hover+div{
 #ace-button{
   position: absolute;
   background-color:rgb(159, 239, 239);
-  top: 161%;
-  left: 58%;
-  height: 30px;
-  width: 100px;
+  top: 85em;
+  left: 52em;
+  height: 3em;
+  width: 10em;
 }
 .divacebutton{
   background-color:rgb(42, 165, 118);
@@ -253,10 +253,10 @@ button:hover+div{
 
   position: absolute;
  background-color:rgb(159, 239, 239);
- top: 172%;
-  left: 52.5%;
-  height: 40px;
-  width: 120px;
+ top: 90.5em;
+  left: 50em;
+  height: 3em;
+  width: 8.5em;
 }
 .divoxabutton{
   background-color:rgb(42, 165, 118);
@@ -265,16 +265,54 @@ button:hover+div{
 #GDP-button{
   position: absolute;
   background-color:rgb(159, 239, 239);
-  top: 239.5%;
-  left: 62%;
-  height: 35px;
-  width: 100px;
+  top: 122em;
+  left: 58em;
+  height: 3em;
+  width: 10em;
 }
 
 .divGDPbutton{
   background-color:rgb(42, 165, 118);
   display: none;
 }
+
+
+.divkrebs{
+  background-color: rgb(158, 216, 232);
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+ height: 30em;
+ width: 40em;
+  top: 53em;
+ 
+
+ 
+  overflow:scroll;
+
+
+  animation: 5s divkrebs forwards;
+
+
+
+}
+
+
+@keyframes divkrebs{
+  from {
+    margin-right: 50%;
+    width: 10%; 
+
+  
+  }
+
+  to {
+    margin-left:75%;
+    width: 30%;
+  }
+}
+
 
 
 #stage3{
