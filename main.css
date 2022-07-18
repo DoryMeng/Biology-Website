@@ -149,8 +149,8 @@ background-color: rgba(117, 235, 241, 0.5);
 
 
  span:hover + div{
- font-size: 20px;
-
+ font-size: 30px;
+ font-family: 'Chewy', cursive;
  display: block;
  }
  #SLP{
@@ -173,7 +173,7 @@ background-color: rgba(117, 235, 241, 0.5);
 }
 
 .stage2{
-  color: rgb(121, 223, 197);
+  color: rgb(104, 225, 191);
 }
 #pyruvate_oxidation_image{
   position: absolute;
@@ -193,8 +193,139 @@ width: 500px;
   left: 6%;
   height: 30px;
   width: 30px;
+  background-color:rgb(159, 239, 239);
 }
+
+button:hover+div{
+  display:block;
+  font-size:20px;
+  font-size: 30px;
+ font-family: 'Chewy', cursive;
+}
+
+.divpyruvatebutton1{
+  background-color:rgb(159, 239, 239);
+  display: none;
+  
+
+}
+#pyruvatebutton2{
+  position: absolute;
+  top:194%;
+  left: 16%;
+  height: 30px;
+  width: 30px;
+  background-color:rgb(159, 239, 239);
+}
+
+.divpyruvatebutton2{
+  background-color:rgb(159, 239, 239);
+  display: none;
+  
+}
+#pyruvatebutton3{
+  position: absolute;
+  top:184%;
+  left: 30%;
+  height: 30px;
+  width: 30px;
+  background-color:rgb(159, 239, 239);
+}
+
+.divpyruvatebutton3{
+  background-color:rgb(159, 239, 239);
+  display: none;
+  
+}
+#ace-button{
+  position: absolute;
+  background-color:rgb(159, 239, 239);
+  top: 161%;
+  left: 58%;
+  height: 30px;
+  width: 100px;
+}
+.divacebutton{
+  background-color:rgb(42, 165, 118);
+  display: none;
+}
+#oxa-button{
+
+  position: absolute;
+ background-color:rgb(159, 239, 239);
+ top: 172%;
+  left: 52.5%;
+  height: 40px;
+  width: 120px;
+}
+.divoxabutton{
+  background-color:rgb(42, 165, 118);
+  display: none;
+}
+#GDP-button{
+  position: absolute;
+  background-color:rgb(159, 239, 239);
+  top: 239.5%;
+  left: 62%;
+  height: 35px;
+  width: 100px;
+}
+
+.divGDPbutton{
+  background-color:rgb(42, 165, 118);
+  display: none;
+}
+
 
 #stage3{
   color: white;
+}
+
+
+
+
+#photo-image{
+  height:350px;
+  width: 450px;
+  margin-left:200px;
+}
+
+.photo-heading{
+  background-color:rgba(250, 235, 215, 0.749);
+}
+
+
+.divphoto{
+  background-color: rgba(225, 168, 168, 0.988);
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+ height: 450px;
+ width: 700px;
+  top: 5%;
+ 
+
+ 
+  overflow:visible;
+
+
+  animation: 5s divphoto forwards;
+
+
+
+}
+
+@keyframes divphoto{
+  from {
+    margin-right: 50%;
+    width: 10%; 
+
+  
+  }
+
+  to {
+    margin-left:55%;
+    width: 20%;
+  }
 }
