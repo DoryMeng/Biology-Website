@@ -392,11 +392,7 @@ background-color:rgb(159, 239, 239);
   display: none;
 }
 
-#NADbutton:active{
-  display:block;
-  font-size:2em;
- font-family: 'Chewy', cursive;
-}
+
 
 
 #FADbutton{
