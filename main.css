@@ -367,3 +367,87 @@ button:hover+div{
     width: 20%;
   }
 }
+
+#calvin{
+  background-color: rgba(249, 227, 227, 0.84);
+}
+
+
+#etc{
+  height: 40em;
+}
+
+#NADHbutton{  
+position: absolute;
+border-radius: 1em;
+top:156em;
+left: 1em;
+height: 3em;
+width: 6.5em;
+background-color:rgb(159, 239, 239);
+}
+
+.divNADHbutton{
+  background-color:rgba(182, 236, 121, 0.74);
+  display: none;
+}
+
+#NADbutton:active{
+  display:block;
+  font-size:2em;
+ font-family: 'Chewy', cursive;
+}
+
+
+#FADbutton{
+  position: absolute;
+  border-radius: 1em;
+  top:160em;
+  left:12em;
+  height:3em;
+  width:6.5em;
+  background-color:rgb(159, 239, 239);
+}
+
+.divFADbutton{
+   background-color:rgba(182, 236, 121, 0.74);
+  display: none;
+}
+
+
+
+.divlight{
+  background-color: rgb(213, 225, 168);
+  border-radius: 1em;
+  font-size: 1.31em;
+  text-align: center;
+  position: absolute;
+ height: 25em;
+ width: 100em;
+  top: 28em;
+ 
+
+ 
+  overflow:visible;
+
+
+  animation: 5s divlight forwards;
+
+
+
+}
+
+
+@keyframes divlight{
+  from {
+    margin-right: 50%;
+    width: 10%; 
+
+  
+  }
+
+  to {
+    margin-left:49em;
+    width: 30%;
+  }
+}
